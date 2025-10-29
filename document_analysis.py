@@ -30,7 +30,7 @@ def analyze_document(file_bytes, mime_type, filename="uploaded_document"):
         Based on the uploaded document, determine if it is an administrative document or a criminal document.
 
         Respond with:
-        1. The type of document (administrative or criminal).
+        1. a description of each section
         2. A short, clear explanation (in simple, non-legal language).
         """
     )
